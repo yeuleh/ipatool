@@ -12,7 +12,7 @@ This fork applies PR [#493](https://github.com/majd/ipatool/pull/493) ("Fix dyna
 
 - **Upstream**: `majd/ipatool@dcddce4` (main, 2026-05-26)
 - **Applied patch**: PR #493 commit `a98f833` by @b-nnett
-- **Fork tag**: `v2.3.1-fix-auth.2`
+- **Fork tags**: see `git tag --list 'v2.3.1-fix-auth.*'` for available versions
 
 ## What PR #493 Does
 
@@ -33,8 +33,8 @@ When `majd/ipatool` merges an equivalent fix and tags a release:
 ## Usage in Go Projects
 
 ```go
-// go.mod
-replace github.com/majd/ipatool/v2 => github.com/yeuleh/ipatool/v2 v2.3.1-fix-auth.1
+// go.mod — use the latest v2.3.1-fix-auth.* tag
+replace github.com/majd/ipatool/v2 => github.com/yeuleh/ipatool/v2 v2.3.1-fix-auth.4
 ```
 
 ## License
