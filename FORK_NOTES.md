@@ -12,7 +12,7 @@ This fork applies PR [#493](https://github.com/majd/ipatool/pull/493) ("Fix dyna
 
 - **Upstream**: `majd/ipatool@dcddce4` (main, 2026-05-26)
 - **Applied patch**: PR #493 commit `a98f833` by @b-nnett
-- **Fork tag**: `v2.3.1-fix-auth.1`
+- **Fork tag**: `v2.3.1-fix-auth.2`
 
 ## What PR #493 Does
 
